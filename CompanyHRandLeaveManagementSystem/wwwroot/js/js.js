@@ -1,0 +1,1 @@
+﻿/*This is the global javascript for the entire app*/
