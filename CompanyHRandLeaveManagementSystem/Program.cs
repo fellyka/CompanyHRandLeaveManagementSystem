@@ -28,11 +28,11 @@ app.UseRouting();
 app.UseAuthorization();
 
 //Map endpoints for controllers
-/*app.MapControllerRoute(
+app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");*/
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapGet("/", () => $"MyKey : {myValue}");
+//app.MapGet("/", () => $"MyKey : {myValue}");
 
 //This line starts the web application and begins listening for incoming HTTP requests
 app.Run();
